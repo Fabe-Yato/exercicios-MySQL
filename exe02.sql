@@ -26,5 +26,3 @@ SELECT * FROM produtos WHERE valor < 500;
 
 UPDATE produtos SET valor = 510.00 WHERE codProduto = 1;
 UPDATE produtos SET valor = 520.00 WHERE codProduto = 5;
-
-

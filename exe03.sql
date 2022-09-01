@@ -27,6 +27,3 @@ SELECT * FROM Estudantes WHERE nota < 7.0;
 ALTER TABLE Estudantes MODIFY nota decimal(3, 1);
 
 UPDATE Estudantes SET nota = 9.5, faltas = 2 WHERE RA = 7;
-
-
-
